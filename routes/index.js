@@ -604,7 +604,7 @@ function basicPage(req, res) {
   var title = 'Soultech';
   var paragraphs = ['Webpage coming soon.'];
 
-  res.render('random', {title: title, paragraphs: paragraphs});
+  res.render('basic', {title: title, paragraphs: paragraphs});
 }
 
 //router.all('*', randomPage);
