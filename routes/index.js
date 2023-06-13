@@ -601,11 +601,10 @@ function randomPage(req, res) {
 }
 
 function basicPage(req, res) {
-  var title = 'Basic Page';
-  var paragraphs = ['This is a basic page.'];
-  var links = [];
+  var title = 'Soultech';
+  var paragraphs = ['Webpage coming soon.'];
 
-  res.render('random', {title: title, paragraphs: paragraphs, links: links});
+  res.render('random', {title: title, paragraphs: paragraphs});
 }
 
 //router.all('*', randomPage);
